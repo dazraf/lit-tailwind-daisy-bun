@@ -7,7 +7,6 @@
 ```bash
 bun create github.com/dazraf/lit-tailwind-daisy-bun <your-directory-name>
 cd <your-directory-name>
-bun install
 ```
 
 ## Running the App
