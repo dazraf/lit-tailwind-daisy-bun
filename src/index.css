@@ -1,0 +1,31 @@
+/*
+  This file is the entry point for the application's styles. It is responsible
+  for importing the global styles, such as TailwindCSS, Bootstrap Icons, and
+  any other global styles that are required for the application to function.
+*/
+
+/**
+  Import bootstrap icons (https://icons.getbootstrap.com/). 
+  Feel free to change this for your preferred icon library
+*/
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/**
+  Import TailwindCSS. This is the main CSS framework used in the application.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ Prevent flashing of unstyled components (FUOC). In this skeleton, we aim to 
+ have the integrity of Shadow DOM to allow us to do slots, as well as isolating
+ any per-component styles. This is achieved using the `AppStyledElement` mixin, 
+ which directly loads the application styles (including tailwind and daisy) 
+ once and injects it into the web-component style. This injection is async, 
+ hence why we typically would see a flashing of unstyled components.The 
+ following CSS selector hides these components until they are styled.
+*/
+*:not(:defined) {
+  opacity: 0;
+}
