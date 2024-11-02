@@ -6,13 +6,15 @@
     "build": "vite build"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
     "@types/bun": "latest",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.12",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "vite": "^5.4.8",
-    "@tailwindcss/typography": "^0.5.15"
+    "vite-plugin-robots": "^1.0.5",
+    "vite-plugin-sitemap": "^0.7.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -24,6 +26,7 @@
     "@types/aos": "^3.0.7",
     "bootstrap-icons": "^1.11.3",
     "lit": "^3.2.1",
-    "urlpattern-polyfill": "^10.0.0"
+    "urlpattern-polyfill": "^10.0.0",
+    "vite-plugin-compression": "^0.5.1"
   }
 }

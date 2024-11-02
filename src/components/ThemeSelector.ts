@@ -137,6 +137,7 @@ export class ThemeSelector extends AppStyledElement(LitElement) {
         <div
           tabindex="0"
           role="button"
+          aria-label="Change Theme"
           class="m-0 p-0 border-0 border-spacing-y-0 max-h-min max-w-min"
         >
           ${ThemeSelector.isCurrentThemeLight
@@ -150,7 +151,7 @@ export class ThemeSelector extends AppStyledElement(LitElement) {
           ${this.renderThemes()}
         </ul>
       </div>
-      <div id="focus-here" class="w-0 h-0 p-0 m-0 absolute" tabindex="1"></div>
+      <div id="focus-here" class="w-0 h-0 p-0 m-0 absolute" tabindex="0"></div>
     `;
   }
 

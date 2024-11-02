@@ -62,17 +62,17 @@ export class Application extends AppStyledElement(LitElement) {
         class="menu menu-horizontal bg-base-200 text-2xl rounded-box text-center"
       >
         <li>
-          <a href="/">
+          <a href="/" aria-label="Home Page">
             <b-icon icon="house-door"></b-icon>
           </a>
         </li>
         <li>
-          <a href="/contact">
+          <a href="/contact" aria-label="Contact Page">
             <b-icon icon="person-lines" filled></b-icon>
           </a>
         </li>
         <li>
-          <a href="/about">
+          <a href="/about" aria-label="About Page">
             <b-icon icon="info-circle" filled></b-icon>
           </a>
         </li>

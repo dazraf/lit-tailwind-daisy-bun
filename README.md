@@ -15,6 +15,12 @@ cd <your-directory-name>
 bun dev
 ```
 
+## Building a Distribution
+
+```bash
+bun run build
+```
+
 ## Features
 
 - Nav Toolbar
@@ -23,6 +29,9 @@ bun dev
 - Mixin class [`AppStyledElement.ts`](./src/components/AppStyledElement.ts) which gives you all the power of Tailwind and Daisy for Lit components
 - [Bootstrap icons](https://icons.getbootstrap.com/) wrapped as a [web component](./src/components/Icon.ts)
 - [Breadcrumbs](./src/components/Breadcrumbs.ts)
+- 100% Lighthouse Score
+
+![](./screenshots/4.png)
 
 ## Screen Shots
 
