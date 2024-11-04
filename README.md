@@ -76,7 +76,7 @@ The app uses [the packages](./package.json) for Tailwind (including `@tailwind/t
 
 ### Tailwind Configuration
 
-I've [configured Tailwind](./tailwind.config.js) to include the Tailwind's typography package and Daisy UI. As the app demonstrates the use of Daisy's multiple themes, I've also configured the selected list in the config. Unfortunatley, this list has to be replicated in the app itself in [`ThemeSelector.ts`](./src/components/ThemeSelector.ts).
+I've [configured Tailwind](./tailwind.config.js) to include Tailwind's typography package and Daisy UI. As the app demonstrates the use of Daisy's multiple themes, I've also configured the selected list in the config. Unfortunatley, this list has to be replicated in the app itself in [`ThemeSelector.ts`](./src/components/ThemeSelector.ts).
 
 ### How Tailwind is used in the App
 
