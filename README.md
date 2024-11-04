@@ -7,6 +7,15 @@ A starter template for a web app built with
 <a href="https://daisyui.com/" style="padding: 12px;"><img src="./docs/daisy.png" height="25"> Daisy UI</a>
 <a href="https://bun.sh/" style="padding: 12px;"><img src="./docs/bun.png" height="25"> Bun</a>
 
+## Contents
+
+- [Using this Repo](#using-this-repo)
+- [Running the App](#running-the-app)
+- [Building a Distribution](#building-a-distribution)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [How it Works](#how-it-works)
+
 ## Using this Repo
 
 ```bash
@@ -38,10 +47,14 @@ bun run build
 
 ![](./screenshots/4.png)
 
-## Screen Shots
+## Screenshots
 
 ![](./screenshots/1.png)
 
 ![](./screenshots/2.png)
 
 ![](./screenshots/3.png)
+
+## How it Works
+
+`In Progress`
