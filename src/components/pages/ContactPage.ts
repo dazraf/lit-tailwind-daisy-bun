@@ -18,6 +18,8 @@ export class ContactPage extends AppStyledElement(LitElement) {
                   <span class="label-text">Name</span>
                 </label>
                 <input
+                  id="name"
+                  autocomplete="name"
                   type="text"
                   placeholder="Enter your name"
                   class="input input-bordered"
@@ -30,6 +32,8 @@ export class ContactPage extends AppStyledElement(LitElement) {
                   <span class="label-text">Email</span>
                 </label>
                 <input
+                  id="email"
+                  autocomplete="email"
                   type="email"
                   placeholder="Enter your email"
                   class="input input-bordered"
@@ -38,7 +42,7 @@ export class ContactPage extends AppStyledElement(LitElement) {
               </div>
 
               <div class="form-control mt-6">
-                <button class="btn btn-primary">Submit</button>
+                <button id="submit" class="btn btn-primary">Submit</button>
               </div>
             </form>
           </div>
