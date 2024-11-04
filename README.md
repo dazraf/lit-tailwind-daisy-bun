@@ -80,7 +80,7 @@ I've [configured Tailwind](./tailwind.config.js) to include the Tailwind's typog
 
 ### How Tailwind is used in the App
 
-Tailwind is included in the application's [`index.css](./src/index.css). The build system will use Tailwind to generate a minimal set of CSS definitions as used by the app. The app includes this file in [`AppStyledElement.ts`](./src/components/AppStyledElement.ts)
+Tailwind is included in the application's [`index.css`](./src/index.css). The build system will use Tailwind to generate a minimal set of CSS definitions as used by the app. The app includes this file in [`AppStyledElement.ts`](./src/components/AppStyledElement.ts)
 
 ```typescript
 import inlineCss from "../index.css?inline";
@@ -94,7 +94,7 @@ declare module "*.css";
 declare module "*.css?inline";
 ```
 
-The `AppStyledElement` mixin is then used when creating a new Lit component e.g.
+The [`AppStyledElement`](./src/components/AppStyledElement.ts) mixin is then used when creating a new Lit component e.g.
 
 ```typescript
 @customElement("app-breadcrumbs")
@@ -105,7 +105,7 @@ export class Breadcrumbs extends AppStyledElement(LitElement) {
 
 ### Navigation and the Lit Router
 
-The Lit Router is a great lightweight library. In [`navigation.ts`](./src/navigation.ts) I've hooked the browser's `globalThis.history.pushState` to keep it updated.
+The Lit Router is a great lightweight library. In [`navigation.ts`](./src/navigation.ts) I've hooked the browser's [`globalThis.history.pushState`](https://developer.mozilla.org/en-US/docs/Web/API/History/pushState) to keep it updated.
 
 ### Theme Selection
 
