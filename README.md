@@ -1,6 +1,11 @@
 # A Template for Lit + Tailwind + Daisy + Bun
 
-<img src="https://github.com/lit/lit/raw/main/packages/lit/logo-dark.svg" height="25"> + <img src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-dark.svg" height="25"> + <img src="https://raw.githubusercontent.com/saadeghi/daisyui-images/master/images/daisyui-logo/favicon-192.png" height="25"> + <img src="https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png" height="25">
+A starter template for a web app built with
+
+<a href="https://lit.dev/" style="padding: 12px;"><img src="./docs/lit.svg" height="25"> Lit</a>
+<a href="https://tailwindcss.com/" style="padding: 12px;"><img src="./docs/tw.svg" height="25"> Tailwind</a>
+<a href="https://daisyui.com/" style="padding: 12px;"><img src="./docs/daisy.png" height="25"> Daisy UI</a>
+<a href="https://bun.sh/" style="padding: 12px;"><img src="./docs/bun.png" height="25"> Bun</a>
 
 ## Using this Repo
 
