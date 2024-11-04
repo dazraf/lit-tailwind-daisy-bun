@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
 import compression from "vite-plugin-compression";
-import { robots } from "vite-plugin-robots";
 import Sitemap from "vite-plugin-sitemap";
 
 export default defineConfig({
@@ -21,7 +20,7 @@ export default defineConfig({
       },
     }),
 
-    Sitemap(),
+    Sitemap({hostname: "http://localhost:5173"}),
   ],
   optimizeDeps: {
     esbuildOptions: {
